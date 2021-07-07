@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditTextId1"
+        android:hint="UserName"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#121111"
+        >
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditTextId2"
+        android:hint="Password"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#121111"
+        >
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Button1Id"
+            android:text="SAVE"
+            android:textSize="20dp"
+            android:textColor="#FF0707"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+>
+
+        </Button>
+
+        <Button
+
+            android:layout_marginTop="15dp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Button2Id"
+            android:text="LOAD"
+            android:textSize="20dp"
+            android:textColor="#FF0707"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+
+            >
+
+        </Button>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:id="@+id/TextViewId"
+
+        >
+
+    </TextView>
+
+</LinearLayout>
